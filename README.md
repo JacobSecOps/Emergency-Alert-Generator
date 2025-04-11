@@ -1,2 +1,2 @@
-# EASGenerator
+# Emergency Alert Generator
 Demonstrating how Emergency Alert Code Specific Area Messages are encoded.
