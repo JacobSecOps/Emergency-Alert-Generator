@@ -2,7 +2,7 @@ from gtts import gTTS
 from pydub import AudioSegment
 import io
 import numpy as np
-from logger import *
+from lib.logger import *
 
 def generate_tts_message(message, target_sample_rate=96000):
     info("Generating TTS Message...")

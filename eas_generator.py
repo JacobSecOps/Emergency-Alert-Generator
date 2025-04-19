@@ -1,11 +1,11 @@
 import argparse
 import numpy as np
 from constants import ATTENTION_TONE_DEFAULT_DURATION, CODES, ORIGINATORS, VERSION
-from waveform_generator import build_same_message, build_eom, generate_attention_tone
-from tts_message import generate_tts_message
-from wave_utils import save_wave
-from same_generator import generate_same_header
-from logger import *
+from lib.waveform_generator import build_same_message, build_eom, generate_attention_tone
+from lib.tts_message import generate_tts_message
+from lib.wave_utils import save_wave
+from lib.same_generator import generate_same_header
+from lib.logger import *
 
 def banner():
     return f"""

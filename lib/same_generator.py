@@ -1,6 +1,6 @@
 import requests
 from constants import CODES, ORIGINATORS
-from logger import *
+from lib.logger import *
 
 
 def get_state_fips(state):

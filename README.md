@@ -1,19 +1,30 @@
+> [!CAUTION]
+> The contents of this repository highlights a crucial government system designed to alert the public urgently in an emergency. Tampering, broadcasting, or spoofing restricted radio signals such as the ones used in the EAS is illegal. This repository and its code exists for educational purposes only. YOU ARE SOULY RESPONSIBLE FOR THE USE AND DISTRIBUTION OF ALERTS GENERATED FROM THIS TOOL!
+
 ![Emergency Alert Generator](docs/logo.png)
 
 ---
+![Static Badge](https://img.shields.io/badge/python-3.12-blue)
 
-> [!CAUTION]
-> The contents of this repository highlights a crucial government system designed to alert the public urgently in an emergency. Tampering, broadcasting, or spoofing restricted radio signals such as the ones used in the EAS is illegal. This repository and its code exists for educational purposes only. YOU ARE SOULY RESPONSIBLE FOR THE USE AND DISTRIBUTION OF ALERTS GENERATED FROM THIS TOOL!
 
 This project exists to explore & demonstrate the United States Emergency Alert System, and how Specific Area Messages are encoded (SAME) for civil, national, and weather alerts. 
 
 ## About This Project
+
 This project accompanies a full write-up article on Medium which explores more details of the Emergency Alert System and NOAA Weather Radios. [Click here to read the article](https://medium.com/@oglesbeejacob/hacking-the-airwaves-simulating-emergency-alerts-with-a-pi-and-sdr-de578e40f53b).
 
 ## Watch the Video Example
 Below is a video example demonstrating transmitting the EAS Alert and receiving it on a NOAA Weather Radio.
 
 [![Watch the Video Example](https://img.youtube.com/vi/Q81Cd0IZ0RE/0.jpg)](https://youtu.be/Q81Cd0IZ0RE)
+
+## Installing & Using This Project
+This project has been tested with Python Version 3.12.10. 
+1. `git clone https://github.com/JacobSecOps/Emergency_Alert_Generator.git`
+2. `pip install -r requirements.txt --upgrade`
+
+
+
 
 
 ## Emergency Alert SAME Header Format
