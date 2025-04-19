@@ -9,7 +9,7 @@
 
 This project exists to explore & demonstrate the United States Emergency Alert System, and how Specific Area Messages are encoded (SAME) for civil, national, and weather alerts. 
 
-This accompanies a full write-up article on Medium which explores more details of the Emergency Alert System and NOAA Weather Radios. [Click here to read the article](https://medium.com/@oglesbeejacob/hacking-the-airwaves-simulating-emergency-alerts-with-a-pi-and-sdr-de578e40f53b).
+This accompanies a full write-up article on Medium which explores more details of the Emergency Alert System and NOAA Weather Radios.
 
 ## About This Project
 
