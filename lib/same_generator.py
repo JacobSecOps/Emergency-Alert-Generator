@@ -1,5 +1,5 @@
 import requests
-from constants import CODES, ORIGINATORS
+from lib.constants import CODES, ORIGINATORS
 from lib.logger import *
 
 

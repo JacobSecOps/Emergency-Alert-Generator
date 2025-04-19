@@ -1,5 +1,5 @@
 import wave
-from constants import SAMPLE_RATE
+from lib.constants import SAMPLE_RATE
 
 def save_wave(path, samples_int16):
     with wave.open(path, 'wb') as wf:

@@ -1,5 +1,5 @@
 import numpy as np
-from constants import *
+from lib.constants import *
 
 def bit_string(text):
     return ''.join(f'{ord(char):08b}'[::-1] for char in text)

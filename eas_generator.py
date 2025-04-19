@@ -1,6 +1,6 @@
 import argparse
 import numpy as np
-from constants import ATTENTION_TONE_DEFAULT_DURATION, CODES, ORIGINATORS, VERSION
+from lib.constants import ATTENTION_TONE_DEFAULT_DURATION, CODES, ORIGINATORS, VERSION
 from lib.waveform_generator import build_same_message, build_eom, generate_attention_tone
 from lib.tts_message import generate_tts_message
 from lib.wave_utils import save_wave
@@ -43,9 +43,9 @@ def main():
     parser.add_argument("-m", "--message", required=True, help="The Text-To-Speech message to include as part of the alert.")
     parser.add_argument("-od", "--day", required=True, help="The Julian Day this alert originates from.")
     parser.add_argument("-oh", "--hour", required=True, help="The Julian Hour this alert originates from.")
+    parser.add_argument("-om", "--minute", required=True, help="The Julian Minute this alert originates from.")
     parser.add_argument("-or", "--origin", required=True, help="The Originator which sent this alert.", choices=ORIGINATORS)
     parser.add_argument("-ev", "--event", required=True, help="The Event Code this alert is for.", choices=CODES)
-    parser.add_argument("-om", "--minute", required=True, help="The Julian Minute this alert originates from.")
     parser.add_argument("-du", "--duration", required=True, help="How long the alert is valid for.", default="0015")
     parser.add_argument("-id", "--identification", required=True, help="The identity of who sent the alert. Max length is 8 characters", default="EXAMPLE")
     parser.add_argument("-at", "--attention-tone", type=int, default=ATTENTION_TONE_DEFAULT_DURATION, choices=range(0, 25),
