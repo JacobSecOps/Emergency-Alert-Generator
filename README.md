@@ -13,7 +13,7 @@ This accompanies a full write-up article on Medium which explores more details o
 
 ## About This Project
 
-This Github Project will generate radio-ready Waveform files that will trigger NOAA Weather Radios and other EAS SAME Decoders that do not verify any type of signature. 
+This Github Project will generate radio-ready Waveform files that will trigger NOAA Weather Radios and (should) trigger other EAS SAME Decoders that do not verify any type of signature. 
 
 Some other key notes are below:
 
