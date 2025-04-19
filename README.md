@@ -20,7 +20,8 @@ Some other key notes are below:
 * FIPS County and State codes are retrieved from the Census Web API when supplying the real name of a State and County.
 * This generator uses the Google TTS Python library to add messages following the Attention Tone. This is intentionally not the normal Paul TTS used by EAS Alerts.
 
-
+> [!NOTE]
+> I cannot completely guarantee the authenticity of these generated alerts against real EAS Equipment. EAS Decoder software such as [SeaTTY](https://www.dxsoft.com/en/products/seatty/) and [samedec](https://crates.io/crates/samedec) decode output Waveforms properly, as well does a physical NOAA Weather Radio, which suggests these follow the specification "close enough" for most scenarios. However, this uncertainty means I cannot recommend using this project in actual real-world scenarios for any reason. However, if you're an EAS operator and want to validate a generated alert (safely), and let me know, please feel free to reach out!
 
 ## Watch the Video Example
 Below is a video example demonstrating transmitting the EAS Alert and receiving it on a NOAA Weather Radio.
