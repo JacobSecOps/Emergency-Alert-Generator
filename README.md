@@ -9,7 +9,7 @@
 
 This project exists to explore & demonstrate the United States Emergency Alert System, and how the Specific Area Messages Encoding (SAME) format is used for civil, national, and weather alerts. 
 
-This accompanies a full write-up article on Medium which explores more details of the Emergency Alert System and NOAA Weather Radios.
+This accompanies a full write-up article on Medium which explores more details of the Emergency Alert System and NOAA Weather Radios. [Read the article here!](https://medium.com/@oglesbeejacob/hacking-the-airwaves-de578e40f53b)
 
 ## About This Project
 
