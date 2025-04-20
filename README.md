@@ -7,7 +7,7 @@
 ![Static Badge](https://img.shields.io/badge/python-3.12-blue)
 
 
-This project exists to explore & demonstrate the United States Emergency Alert System, and how Specific Area Messages are encoded (SAME) for civil, national, and weather alerts. 
+This project exists to explore & demonstrate the United States Emergency Alert System, and how the Specific Area Messages Encoding (SAME) format is used for civil, national, and weather alerts. 
 
 This accompanies a full write-up article on Medium which explores more details of the Emergency Alert System and NOAA Weather Radios.
 
